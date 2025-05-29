@@ -1,0 +1,257 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "multipleValues": {
+                "enabled": false
+              },
+              "name": "Appreciation",
+              "type": "appreciation"
+            },
+            {
+              "name": "Score",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "Un {Score}",
+            "Un {Score} porque {Appreciation}",
+            "Diria que {Score}",
+            "{Score} ",
+            "{Appreciation} Así que un {Score}",
+            "Esta es un {Score}",
+            "Vamos a decir un {Score}",
+            "{Appreciation}",
+            "Quizas un {Score}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "QuizIntent",
+          "samples": [
+            "okey vamos",
+            "vamos",
+            "empieza el test",
+            "empieza el cuestionario",
+            "empieza la prueba",
+            "hazme el test",
+            "hazme el cuestionario",
+            "hazme la prueba",
+            "pruebame",
+            "venga pruebame"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "no puedo"
+              }
+            },
+            {
+              "name": {
+                "value": "ni hablar"
+              }
+            },
+            {
+              "name": {
+                "value": "ni de broma"
+              }
+            },
+            {
+              "name": {
+                "value": "es imposible"
+              }
+            },
+            {
+              "name": {
+                "value": "no soy capaz"
+              }
+            },
+            {
+              "name": {
+                "value": "de ninguna manera"
+              }
+            },
+            {
+              "name": {
+                "value": "me resulta imposible"
+              }
+            },
+            {
+              "name": {
+                "value": "no lo consigo"
+              }
+            },
+            {
+              "name": {
+                "value": "no lo puedo hacer"
+              }
+            },
+            {
+              "name": {
+                "value": "necesito ayuda"
+              }
+            },
+            {
+              "name": {
+                "value": "me ayuda alguien"
+              }
+            },
+            {
+              "name": {
+                "value": "no lo hago solo"
+              }
+            },
+            {
+              "name": {
+                "value": "con ayuda si"
+              }
+            },
+            {
+              "name": {
+                "value": "alguien me asiste"
+              }
+            },
+            {
+              "name": {
+                "value": "me tienen que ayudar"
+              }
+            },
+            {
+              "name": {
+                "value": "dependo de alguien"
+              }
+            },
+            {
+              "name": {
+                "value": "con asistencia"
+              }
+            },
+            {
+              "name": {
+                "value": "me cuesta"
+              }
+            },
+            {
+              "name": {
+                "value": "es un poco dificil"
+              }
+            },
+            {
+              "name": {
+                "value": "requiere esfuerzo"
+              }
+            },
+            {
+              "name": {
+                "value": "me las veo"
+              }
+            },
+            {
+              "name": {
+                "value": "lo hago pero con dificultad"
+              }
+            },
+            {
+              "name": {
+                "value": "con algo de esfuerzo"
+              }
+            },
+            {
+              "name": {
+                "value": "me cuesta un poco"
+              }
+            },
+            {
+              "name": {
+                "value": "no es facil para mí"
+              }
+            },
+            {
+              "name": {
+                "value": "puedo solo"
+              }
+            },
+            {
+              "name": {
+                "value": "sin problemas"
+              }
+            },
+            {
+              "name": {
+                "value": "no tengo problema"
+              }
+            },
+            {
+              "name": {
+                "value": "lo hago sin dificultad"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "me apaño",
+                  "me las apaño"
+                ],
+                "value": "me las arreglo"
+              }
+            },
+            {
+              "name": {
+                "value": "lo hago solo"
+              }
+            },
+            {
+              "name": {
+                "value": "por mi cuenta"
+              }
+            },
+            {
+              "name": {
+                "value": "sin ayuda"
+              }
+            },
+            {
+              "name": {
+                "value": "claro, sin problema"
+              }
+            }
+          ],
+          "name": "appreciation"
+        }
+      ],
+      "invocationName": "test abuelitos"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "multipleValues": {
+                "enabled": false
+              },
+              "name": "Appreciation",
+              "type": "appreciation"
+            },
+            {
+              "name": "Score",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "A {Score} because {Appreciation}",
+            "I will say {Score}",
+            "{Score} ",
+            "{Appreciation} I will give it a {Score}",
+            "It is a {Score}",
+            "let\u0027s put a {Score}",
+            "{Appreciation}",
+            "Maybe a {Score}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "QuizIntent",
+          "samples": [
+            "okay come on",
+            "let\u0027s go",
+            "start a test",
+            "start the test",
+            "start the quiz",
+            "make the test",
+            "start a quiz",
+            "make a test",
+            "test me",
+            "begin the test"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "I can\u0027t"
+              }
+            },
+            {
+              "name": {
+                "value": "I cannot"
+              }
+            },
+            {
+              "name": {
+                "value": "no way"
+              }
+            },
+            {
+              "name": {
+                "value": "not able"
+              }
+            },
+            {
+              "name": {
+                "value": "it\u0027s impossible"
+              }
+            },
+            {
+              "name": {
+                "value": "I can\u0027t do it"
+              }
+            },
+            {
+              "name": {
+                "value": "I need help"
+              }
+            },
+            {
+              "name": {
+                "value": "I can\u0027t do it alone"
+              }
+            },
+            {
+              "name": {
+                "value": "someone helps me"
+              }
+            },
+            {
+              "name": {
+                "value": "I get assistance"
+              }
+            },
+            {
+              "name": {
+                "value": "I depend on someone"
+              }
+            },
+            {
+              "name": {
+                "value": "with help"
+              }
+            },
+            {
+              "name": {
+                "value": "I struggle"
+              }
+            },
+            {
+              "name": {
+                "value": "it\u0027s a bit hard"
+              }
+            },
+            {
+              "name": {
+                "value": "I manage but it\u0027s hard"
+              }
+            },
+            {
+              "name": {
+                "value": "takes effort"
+              }
+            },
+            {
+              "name": {
+                "value": "I\u0027m struggling"
+              }
+            },
+            {
+              "name": {
+                "value": "it\u0027s not easy"
+              }
+            },
+            {
+              "name": {
+                "value": "I can"
+              }
+            },
+            {
+              "name": {
+                "value": "I do it alone"
+              }
+            },
+            {
+              "name": {
+                "value": "I\u0027m fine"
+              }
+            },
+            {
+              "name": {
+                "value": "I do it myself"
+              }
+            },
+            {
+              "name": {
+                "value": "I can do it without help"
+              }
+            },
+            {
+              "name": {
+                "value": "no problem"
+              }
+            }
+          ],
+          "name": "appreciation"
+        }
+      ],
+      "invocationName": "elders test"
+    }
+  }
+}
